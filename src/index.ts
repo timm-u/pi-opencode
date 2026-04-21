@@ -94,6 +94,7 @@ const ZEN_OPENAI_MODELS: ModelDef[] = [
 	{ id: "glm-5", name: "GLM 5", reasoning: true, input: ["text"], contextWindow: 128000, maxTokens: 16384 },
 	{ id: "glm-4.7", name: "GLM 4.7", reasoning: true, input: ["text"], contextWindow: 128000, maxTokens: 16384 },
 	{ id: "glm-4.6", name: "GLM 4.6", reasoning: true, input: ["text"], contextWindow: 128000, maxTokens: 16384 },
+	{ id: "kimi-k2.6", name: "Kimi K2.6", reasoning: true, input: ["text", "image"], contextWindow: 262144, maxTokens: 65536 },
 	{ id: "kimi-k2.5", name: "Kimi K2.5", reasoning: true, input: ["text", "image"], contextWindow: 262144, maxTokens: 65536 },
 	{ id: "kimi-k2", name: "Kimi K2", reasoning: true, input: ["text", "image"], contextWindow: 262144, maxTokens: 65536 },
 	{ id: "kimi-k2-thinking", name: "Kimi K2 Thinking", reasoning: true, input: ["text", "image"], contextWindow: 262144, maxTokens: 65536 },
@@ -120,6 +121,7 @@ const ZEN_ANTHROPIC_MODELS: ModelDef[] = [
 const GO_OPENAI_MODELS: ModelDef[] = [
 	{ id: "glm-5.1", name: "GLM 5.1", reasoning: true, input: ["text"], contextWindow: 128000, maxTokens: 16384 },
 	{ id: "glm-5", name: "GLM 5", reasoning: true, input: ["text"], contextWindow: 128000, maxTokens: 16384 },
+	{ id: "kimi-k2.6", name: "Kimi K2.6", reasoning: true, input: ["text", "image"], contextWindow: 262144, maxTokens: 65536 },
 	{ id: "kimi-k2.5", name: "Kimi K2.5", reasoning: true, input: ["text", "image"], contextWindow: 262144, maxTokens: 65536 },
 	{ id: "mimo-v2-pro", name: "MiMo V2 Pro", reasoning: true, input: ["text"], contextWindow: 128000, maxTokens: 32768 },
 	{ id: "mimo-v2-omni", name: "MiMo V2 Omni", reasoning: true, input: ["text", "image"], contextWindow: 128000, maxTokens: 32768 },
