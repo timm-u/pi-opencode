@@ -1,5 +1,7 @@
 # pi-opencode
 
+> **Archived:** Current pi releases include built-in `opencode` and `opencode-go` providers. This extension is no longer needed for OpenCode Zen or OpenCode Go access. Use pi's built-in providers with `OPENCODE_API_KEY` or `~/.pi/agent/auth.json` instead.
+
 OpenCode provider extension for [pi](https://github.com/mariozechner/pi-coding-agent) coding agent.
 
 Access OpenCode Zen (cash balance) and OpenCode Go (subscription credits) models.
